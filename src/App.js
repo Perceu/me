@@ -54,7 +54,7 @@ class App extends Component {
         <br />
         <div className="text-center container">
           <h1>Perceu Gonçalves Bertoletti</h1>
-          <img src="/img/foto.jpg" className="rounded img-fluid" alt=""/>
+          <img src="/me/img/foto.jpg" className="rounded img-fluid" alt=""/>
           <section>
             <h1>Como me defino</h1>
             <p>
