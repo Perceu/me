@@ -35,7 +35,7 @@ class App extends Component {
         <Col md="3">
           <div className="container perfil-container">
             <section className="text-center" >
-              <img src="me/img/foto.jpg" className="rounded-circle img-fluid perfil-img" alt=""/>
+              <img src="/me/img/foto.jpg" className="rounded-circle img-fluid perfil-img" alt=""/>
               <h3>Perceu Gonçalves Bertoletti</h3>
               <SocialBar /> 
             </section>
