@@ -14,47 +14,45 @@ class SocialBar extends Component {
         <Nav pills className="social-bar" >
             <NavItem>
                 <NavLink href="/">
-                <FA name='home' />
+                    <FA name='home' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://facebook.com/perceu.bertoletti">
-                <FA name='facebook' />
+                    <FA name='facebook' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://github.com/perceu">
-                <FA name='github' />
+                    <FA name='github' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="https://www.instagram.com/perceubertoletti/">
-                <FA name='instagram' />
+                    <FA name='instagram' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="https://perceubertoletti.blogspot.com.br/">
-                    <FA name='google-plus-square' />
+                    <FA name='google-plus-square' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://twitter.com/perceuLo">
-                <FA name='twitter' />
+                    <FA name='twitter' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://www.linkedin.com/in/perceu-bertoletti">
-                <FA name='linkedin' />
+                <FA name='linkedin' size="2x"/>
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="mailto:perceubertoletti@gmail.com">
-                <FA name='envelope' />
+                    <FA name='envelope' /> perceubertoletti@gmail.com <br />
                 </NavLink>
-            </NavItem>
-            <NavItem>
                 <NavLink target="_blank" href="tel:54996622121">
-                <FA name='phone' size="2x" />
+                    <FA name='phone' /> (54) 99662-2121 <br />
                 </NavLink>
             </NavItem>
         </Nav>      
