@@ -23,6 +23,11 @@ class SocialBar extends Component {
                 </NavLink>
             </NavItem>
             <NavItem>
+                <NavLink target="_blank" href="http://github.com/perceu">
+                <FA name='github' size="2x" />
+                </NavLink>
+            </NavItem>
+            <NavItem>
                 <NavLink target="_blank" href="http://twitter.com/perceuLo">
                 <FA name='twitter' size="2x" />
                 </NavLink>
