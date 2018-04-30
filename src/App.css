@@ -21,7 +21,27 @@
 .App-intro {
   font-size: large;
 }
-
+.perfil-container{
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.perfil-img{
+  height: 150px;
+  width: 150px;
+}
+.sobre{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.caracteristicas{
+  margin-top: 15px;
+}
+.caracteristicas .card{
+  margin-left: 5px;
+  margin-right: 5px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
