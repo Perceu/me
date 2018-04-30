@@ -14,32 +14,42 @@ class SocialBar extends Component {
         <Nav pills className="social-bar" >
             <NavItem>
                 <NavLink href="/">
-                <FA name='home' size="2x" />
+                <FA name='home' />
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://facebook.com/perceu.bertoletti">
-                <FA name='facebook' size="2x" />
+                <FA name='facebook' />
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://github.com/perceu">
-                <FA name='github' size="2x" />
+                <FA name='github' />
+                </NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink target="_blank" href="https://www.instagram.com/perceubertoletti/">
+                <FA name='instagram' />
+                </NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink target="_blank" href="https://perceubertoletti.blogspot.com.br/">
+                    <FA name='google-plus-square' />
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://twitter.com/perceuLo">
-                <FA name='twitter' size="2x" />
+                <FA name='twitter' />
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="http://www.linkedin.com/in/perceu-bertoletti">
-                <FA name='linkedin' size="2x" />
+                <FA name='linkedin' />
                 </NavLink>
             </NavItem>
             <NavItem>
                 <NavLink target="_blank" href="mailto:perceubertoletti@gmail.com">
-                <FA name='envelope' size="2x" />
+                <FA name='envelope' />
                 </NavLink>
             </NavItem>
             <NavItem>
