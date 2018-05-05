@@ -2,9 +2,48 @@
   text-align: center;
 }
 
+a:hover{
+  text-decoration: none;
+}
+a{
+  color: green;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+h1.name{
+  margin-top: 20px;
+}
+
+.menu{
+  width: 100%;
+  padding: 0;
+}
+
+.menu-item{
+  list-style-type: none;
+  padding: 10px;
+  background-color: #222;
+  transition: linear 0.3s;
+}
+
+.menu-item a {
+  color: green;
+}
+
+.menu-item:hover {
+  color: black;
+  text-decoration: none;
+  transition: linear 0.3s;
+  background-color: #ccc;
+}
+
+h1 small {
+  color: #ccc;
+  font-size: 1.5rem;
 }
 
 .App-header {
@@ -20,6 +59,12 @@
 
 .App-intro {
   font-size: large;
+}
+#home-image{
+  max-height: 100vh;
+}
+.title-right{
+  margin-top: 50px;
 }
 .perfil-container{
   background-color: black;
