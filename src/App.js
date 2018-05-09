@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './my_components/home/Home';
 import Menu from './my_components/menu/Menu';
 import Contacts from './my_components/contacts/Contacts';
+import Personal from './my_components/infos/Personal';
+import Professional from './my_components/infos/Professional';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {
@@ -28,8 +30,6 @@ import {
   ListGroupItem
 } from 'reactstrap';
 
-const FA = require('react-fontawesome')
-
 class App extends Component {
   render() {
     return (
@@ -50,6 +50,8 @@ class App extends Component {
         <Col id="right-container" md="9">
             <Route exact path="/" component={Home} />
             <Route exact path="/contacts" component={Contacts} />
+            <Route exact path="/personal" component={Personal} />
+            <Route exact path="/professional" component={Professional} />
         </Col>
       </Row>
       </Router>

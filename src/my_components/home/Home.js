@@ -34,11 +34,7 @@ class Home extends Component {
                             <li>Qual o mal que lhe aflige ?</li>
                             <li>Posso ajudar ?</li>
                         </ul>
-
-
                     </p>
-                    <h1><strong> Informarções Pessoais</strong></h1>
-                    <hr />
                 </Col>
                 <Col md="6">
                     <img src="/img/foto_2.jpg" id="home-image" />

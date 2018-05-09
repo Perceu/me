@@ -1,9 +1,18 @@
 .App {
   text-align: center;
 }
-
+#left-container{
+  min-height: 100vh;
+}
+#right-container{
+  min-height: 100vh;
+}
 a:hover{
   text-decoration: none;
+}
+.menu-icon{
+  margin-right: 10px;
+  padding: 5px;
 }
 a{
   color: green;
