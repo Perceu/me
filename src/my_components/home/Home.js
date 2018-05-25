@@ -28,6 +28,9 @@ class Home extends Component {
                         Normalmente falo sem pensar
                     </p>
                     <p>
+                        Em busca de um objetivo novo a cada conquida to anterior!
+                    </p>
+                    <p>
                         <strong> Frases Favoritas :</strong><br />
                         <ul>
                             <li>Desculpa!</li>

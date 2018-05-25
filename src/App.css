@@ -35,7 +35,6 @@ h1.name{
 .menu-item{
   list-style-type: none;
   padding: 10px;
-  background-color: #222;
   transition: linear 0.3s;
 }
 
@@ -80,6 +79,7 @@ h1 small {
   color: white;
   min-height: 100vh;
   padding-top: 30px;
+  height: 100%;
 }
 .perfil-img{
   height: 150px;
