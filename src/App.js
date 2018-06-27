@@ -29,8 +29,14 @@ import {
   ListGroup, 
   ListGroupItem
 } from 'reactstrap';
+import fontawesome from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faArrowUp from '@fortawesome/fontawesome-free-solid/faArrowUp'
 
 class App extends Component {
+  moveUp(){
+    window.scrollTo(0, 0); 
+  }
   render() {
     return (
       <Router>
@@ -53,6 +59,9 @@ class App extends Component {
             <Route exact path="/personal" component={Personal} />
             <Route exact path="/professional" component={Professional} />
         </Col>
+        <button className="goto_up btn btn-small btn-dark d-block d-sm-none" onClick={this.moveUp}>
+          <FontAwesomeIcon  icon={faArrowUp}/>
+        </button>
       </Row>
       </Router>
     );

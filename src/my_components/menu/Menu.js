@@ -8,10 +8,15 @@ import faAddressBook from '@fortawesome/fontawesome-free-solid/faAddressBook'
 import { Link } from "react-router-dom";
 
 class Menu extends Component {
+
+    scrollDown(){
+        window.scrollTo(0, window.innerHeight); 
+    }
+
     render() {
         return (
             <ul className="menu">
-                <Link to="/">
+                <Link to="/" onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faUser} />
@@ -19,7 +24,7 @@ class Menu extends Component {
                          Sobre Mim
                     </li>
                 </Link>
-                <Link to="/personal">
+                <Link to="/personal" onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faAddressCard} />
@@ -27,7 +32,7 @@ class Menu extends Component {
                          Informações Pessoais
                     </li>
                 </Link>
-                <Link to="/professional">
+                <Link to="/professional" onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faAddressBook} />
@@ -35,8 +40,8 @@ class Menu extends Component {
                          Informações Profissionais
                     </li>
                 </Link>
-                <Link to="/contacts">
-                    <li className="active-menu menu-item">
+                <Link to="/contacts" onClick={this.scrollDown}>
+                    <li className="active-menu menu-item ">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faEnvelope} />
                         </span>

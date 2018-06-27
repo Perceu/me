@@ -20,22 +20,24 @@ class Contacts extends Component {
         return (
             <Row>
                 <Col md="12">
-                    <h1 className="title-right" ><strong> Quer conversar ?</strong></h1>
-                    <hr />
-                    <p>
-                        Entre em contato comigo atravez de qualquer rede social, sou amigavel.
-                    </p>
-                    <SocialBar />
-                    <hr/>
-                    <p>
-                        Para contatos de outros fins me encontre por email ou telefone.
-                    </p>
-                    <NavLink target="_blank" href="mailto:perceubertoletti@gmail.com">
-                        <FontAwesomeIcon icon={faEnvelope} /> perceubertoletti@gmail.com <br />
-                    </NavLink>
-                    <NavLink target="_blank" href="tel:54996622121">
-                        <FontAwesomeIcon icon={faPhone} />  (54) 99662-2121 <br />
-                    </NavLink>
+                    <Col md="12">
+                        <h1 className="title-right" ><strong> Quer conversar ?</strong></h1>
+                        <hr />
+                        <p>
+                            Entre em contato comigo atravez de qualquer rede social, sou amigavel.
+                        </p>
+                        <SocialBar />
+                        <hr/>
+                        <p>
+                            Para contatos de outros fins me encontre por email ou telefone.
+                        </p>
+                        <NavLink target="_blank" href="mailto:perceubertoletti@gmail.com">
+                            <FontAwesomeIcon icon={faEnvelope} /> perceubertoletti@gmail.com <br />
+                        </NavLink>
+                        <NavLink target="_blank" href="tel:54996622121">
+                            <FontAwesomeIcon icon={faPhone} />  (54) 99662-2121 <br />
+                        </NavLink>
+                    </Col>  
                 </Col>
             </Row>
         );

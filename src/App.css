@@ -100,3 +100,9 @@ h1 small {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.goto_up{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
