@@ -16,7 +16,7 @@ class Menu extends Component {
     render() {
         return (
             <ul className="menu">
-                <Link to="/" onClick={this.scrollDown}>
+                <Link to={process.env.PUBLIC_URL + '/'} onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faUser} />
@@ -24,7 +24,7 @@ class Menu extends Component {
                          Sobre Mim
                     </li>
                 </Link>
-                <Link to="/personal" onClick={this.scrollDown}>
+                <Link to={process.env.PUBLIC_URL + '/personal'} onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faAddressCard} />
@@ -32,7 +32,7 @@ class Menu extends Component {
                          Informações Pessoais
                     </li>
                 </Link>
-                <Link to="/professional" onClick={this.scrollDown}>
+                <Link to={process.env.PUBLIC_URL + '/professional'} onClick={this.scrollDown}>
                     <li className="active-menu menu-item">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faAddressBook} />
@@ -40,7 +40,7 @@ class Menu extends Component {
                          Informações Profissionais
                     </li>
                 </Link>
-                <Link to="/contacts" onClick={this.scrollDown}>
+                <Link to={process.env.PUBLIC_URL + '/contacts'} onClick={this.scrollDown}>
                     <li className="active-menu menu-item ">
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faEnvelope} />

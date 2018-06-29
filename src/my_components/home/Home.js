@@ -42,7 +42,7 @@ class Home extends Component {
                     </Col>  
                 </Col>
                 <Col md="6">
-                    <img src="/img/foto_2.jpg" id="home-image" />
+                    <img src={process.env.PUBLIC_URL + '/img/foto_2.jpg'} id="home-image" />
                 </Col>
             </Row>
         );

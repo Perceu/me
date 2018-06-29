@@ -44,9 +44,9 @@ class App extends Component {
         <Col id="left-container"md="3">
           <div className="perfil-container">
             <section className="text-center" >
-              <img src="/img/foto.jpg" className="rounded-circle img-fluid perfil-img" alt=""/>
+              <img src={process.env.PUBLIC_URL + '/img/foto.jpg'} className="rounded-circle img-fluid perfil-img" alt=""/>
                 <h1 className="name">
-                    Perceu Bertoletti<br />
+                    Perceu Bertoletti  <br />
                     <small> Web Developer </small>
                 </h1>
             </section>
@@ -54,10 +54,10 @@ class App extends Component {
           </div>
         </Col >
         <Col id="right-container" md="9">
-            <Route exact path="/" component={Home} />
-            <Route exact path="/contacts" component={Contacts} />
-            <Route exact path="/personal" component={Personal} />
-            <Route exact path="/professional" component={Professional} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + '/contacts'} component={Contacts} />
+            <Route exact path={process.env.PUBLIC_URL + '/personal'} component={Personal} />
+            <Route exact path={process.env.PUBLIC_URL + '/professional'} component={Professional} />
         </Col>
         <button className="goto_up btn btn-small btn-dark d-block d-sm-none" onClick={this.moveUp}>
           <FontAwesomeIcon  icon={faArrowUp}/>
