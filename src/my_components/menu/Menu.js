@@ -21,15 +21,7 @@ class Menu extends Component {
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faUser} />
                         </span>
-                         Sobre Mim
-                    </li>
-                </Link>
-                <Link to={process.env.PUBLIC_URL + '/personal'} onClick={this.scrollDown}>
-                    <li className="active-menu menu-item">
-                        <span className="menu-icon">
-                            <FontAwesomeIcon icon={faAddressCard} />
-                        </span>
-                         Informações Pessoais
+                        Biografia
                     </li>
                 </Link>
                 <Link to={process.env.PUBLIC_URL + '/professional'} onClick={this.scrollDown}>
@@ -37,7 +29,15 @@ class Menu extends Component {
                         <span className="menu-icon">
                             <FontAwesomeIcon icon={faAddressBook} />
                         </span>
-                         Informações Profissionais
+                         Ficha Técnica
+                    </li>
+                </Link>
+                <Link to={process.env.PUBLIC_URL + '/personal'} onClick={this.scrollDown}>
+                    <li className="active-menu menu-item">
+                        <span className="menu-icon">
+                            <FontAwesomeIcon icon={faAddressCard} />
+                        </span>
+                         Ficha Pessoal
                     </li>
                 </Link>
                 <Link to={process.env.PUBLIC_URL + '/contacts'} onClick={this.scrollDown}>

@@ -24,18 +24,18 @@ class Contacts extends Component {
                         <h1 className="title-right" ><strong> Quer conversar ?</strong></h1>
                         <hr />
                         <p>
-                            Entre em contato comigo atravez de qualquer rede social, sou amigavel.
+                            Minhas Redes Sociais:
                         </p>
                         <SocialBar />
                         <hr/>
                         <p>
-                            Para contatos de outros fins me encontre por email ou telefone.
+                            Contatos:
                         </p>
                         <NavLink target="_blank" href="mailto:perceubertoletti@gmail.com">
                             <FontAwesomeIcon icon={faEnvelope} /> perceubertoletti@gmail.com <br />
                         </NavLink>
                         <NavLink target="_blank" href="tel:54996622121">
-                            <FontAwesomeIcon icon={faPhone} />  (54) 99662-2121 <br />
+                            <FontAwesomeIcon icon={faPhone} />  (54) 9 9662-2121 <br />
                         </NavLink>
                     </Col>  
                 </Col>

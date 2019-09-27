@@ -16,29 +16,25 @@ class Home extends Component {
             <Row>
                 <Col md="6">
                     <Col md="12">
-                        <h1 className="title-right" ><strong> Biografia</strong></h1>
+                        <h1 className="title-right" ><strong> Quem eu sou ?</strong></h1>
                         <hr />
                         <p>
-                            Sou desenvolvedor web a alguns anos, tenho expericia na criação de sistemas. Adoro filmes, series, jogos, sou do tempo que ser nerd era pejorativo.
+                            Desenvolvedor desde 2013, apaixonado por tecnologia, apoiador de comunidades open-source.
                         </p>
                         <p>
-                            Gosto da cultura nerd, gosto de filosofar sobre a vida o universo e tudo mais, rapidamente tenho opinião sobre qualquer assunto,
-                            mesmo que em pouco tempo veja que minha opinião inicial estava errada.
+                            Instrutor, Consultor e Palestrante nas horas vagas, empreendedor em tempo integral.
                         </p>
                         <p>
-                            Normalmente falo sem pensar
+                            Nerd de carteirinha, adoro cinema, cultura pop/nerd, estou sempre vagando entre 2 mundos, o nerd e o geek,
+                            quando não estou estudando algo da minha profissão estou num mundo de fantasia/ficção
                         </p>
                         <p>
-                            Em busca de um objetivo novo a cada conquida to anterior!
+                            Adoto solucionar problemas e gosto de de ser desafiado, mas odeio confrontos, tem um problema? vamos resolver juntos!
                         </p>
                         <p>
-                            <strong> Frases Favoritas :</strong><br />
-                            <ul>
-                                <li>Desculpa!</li>
-                                <li>Qual o mal que lhe aflige ?</li>
-                                <li>Posso ajudar ?</li>
-                            </ul>
+                            Se quiser conversar todos os contatos estão no site!
                         </p>
+                        
                     </Col>  
                 </Col>
                 <Col md="6">

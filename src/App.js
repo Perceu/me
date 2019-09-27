@@ -47,7 +47,7 @@ class App extends Component {
               <img src={process.env.PUBLIC_URL + '/img/foto.jpg'} className="rounded-circle img-fluid perfil-img" alt=""/>
                 <h1 className="name">
                     Perceu Bertoletti  <br />
-                    <small> Web Developer </small>
+                    <small> Desenvolvedor </small>
                 </h1>
             </section>
             <Menu />
